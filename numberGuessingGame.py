@@ -14,7 +14,7 @@ def check_answer(user_guess, actual_answer, turns):
         print(f"Correct, the answer is {actual_answer}")
 
 def set_difficulty():
-    level = input("Choose a difficulty. Type 'easy' or hard': ")
+    level = input("Choose a difficulty. Type 'easy' or 'hard': ")
     if level == "easy":
         return EASY_LEVEL_TURNS
     else:
